@@ -1,0 +1,20 @@
+- ファイル名：
+    - Baseline-RNN+FC 1.0
+- 説明
+    - ICLR2018のアーキテクチャ３の実装
+    - デモ
+- 学習データ
+    - ../data/yahootopic/train_pu_half_v0.txt
+    - クラス数：5
+    - データ数：65000
+- テストデータ
+    - ../data/yahootopic/test.csvのv1のデータ
+    - クラス数：5
+    - データ数：5000
+- パラメータ
+    - "SEQ_LEN":128
+    - "input_dim":600
+    - "train_units":5
+    - "test_units":5
+    - "BATCH_SIZE":32
+    - "EPOCHS":1

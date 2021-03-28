@@ -1,0 +1,8 @@
+{
+    "SEQ_LEN":128,
+    "input_dim":600,
+    "train_units":5,
+    "test_units":5,
+    "BATCH_SIZE":32,
+    "EPOCHS":1
+}
